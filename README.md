@@ -290,47 +290,6 @@ You deploy the full stack (Factory, Vault, Bundles), provide your own liquidity,
 
 ---
 
-## Grant Opportunities
-
-This project is a strong candidate for ecosystem grants. Below are relevant programs:
-
-### Polygon
-
-- **Polygon Village** — Infrastructure grants for DeFi protocols on Polygon
-- Relevant angle: on-chain parlay infrastructure expanding Polygon DeFi use cases
-- https://polygon.technology/village
-
-### Polymarket
-
-- Developer ecosystem grants for tooling built on Polymarket's CLOB
-- Relevant angle: first open-source parlay layer on top of Polymarket positions
-
-### UMA / Optimistic Oracle
-
-- Grants for prediction market infrastructure
-- Relevant angle: settlement oracle integration, market resolution tooling
-
-### Gnosis / Conditional Tokens
-
-- Grants for conditional token framework extensions
-- Relevant angle: bundle/parlay primitive using conditional token positions
-
-### General Web3 Grants
-
-- **Gitcoin Grants** — Community-funded public goods rounds
-- **Questbook** — DeFi infrastructure grants across multiple chains
-- **Optimism RPGF** — Retroactive public goods funding (if deployed on OP)
-
-### Grant Application Tips
-
-1. Lead with the post-mortem — it shows real production experience
-2. Emphasize the "public goods" angle — open-source infra anyone can deploy
-3. Highlight the protocol fee model — sustainable without token or VC funding
-4. Include deployment metrics if you have them (bundles created, volume, TVL)
-5. Mention Safe wallet / EIP-1271 support — signals enterprise readiness
-
----
-
 ## License
 
 MIT — deploy it, fork it, build on it. The 0.5% protocol fee is the only ask.
