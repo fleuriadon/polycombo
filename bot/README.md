@@ -11,6 +11,7 @@ bot/
 └── polymarket/                         # Source-specific adapter
     ├── executionBot_Polymarket.js      # Main bot (event listener + trade + resolve)
     └── ConditionalTokensRedeemer.js    # CTF redemption (Gnosis Conditional Tokens)
+    └── polymarketClient.js             # Polymarket client for orders...etc
 ```
 
 ### Shared components (source-agnostic)
@@ -112,4 +113,4 @@ The bot polls every 5 minutes, processes new bundles immediately, and queues exp
 
 ## Dependencies
 
-The bot requires `polymarketClient.js` (not included) — this is the Polymarket CLOB API client for placing orders. You can build this using the [Polymarket CLOB API docs](https://docs.polymarket.com/).
+The bot requires `polymarketClient.js` (included) — this is the Polymarket CLOB API client for placing orders.
